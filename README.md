@@ -11,3 +11,5 @@ input.in need to be in this format
 17/03/2024 // semester end date
 <div data-v-3b ... // the content of copied html element
 ```
+Please copy this and paste onto the line 5.
+![image](https://github.com/RiwEZ/cmu_reg_ics_scraper/assets/55591062/07d9963d-5b0d-4ae8-91fc-55aa23160b9c)
