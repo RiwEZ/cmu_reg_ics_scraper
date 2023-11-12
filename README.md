@@ -1,6 +1,15 @@
 ## How to use
 
-`./main input.in` 
+### use the binary file(windows)
+```
+.\ics_scraper .\input.in
+```
+
+### build from source
+```
+go build
+.\ics_scraper .\input.in
+```
 
 input.in need to be in this format 
 
