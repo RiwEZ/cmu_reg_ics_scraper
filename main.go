@@ -162,8 +162,8 @@ func main() {
 
 	courses := make(map[Course][]string)
 
-	doc.Find(".row").Each(func(i int, s *goquery.Selection) {
-		s.Find(".cell-details").Each(func(j int, nodes *goquery.Selection) {
+	doc.Find(".day-time-cell").Each(func(i int, s *goquery.Selection) {
+		s.Find(".text-truncate").Each(func(j int, nodes *goquery.Selection) {
 			var data Course
 
 			nodes.ChildrenFiltered("span").Each(func(k int, node *goquery.Selection) {
