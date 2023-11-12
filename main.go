@@ -185,7 +185,7 @@ func main() {
 					data.endMinute = parseTime(t[9:11])
 				}
 			})
-			courses[data] = append(courses[data], weekdayMap[i])
+			courses[data] = append(courses[data], weekdayMap[i-13])
 		})
 	})
 
