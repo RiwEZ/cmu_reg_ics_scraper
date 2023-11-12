@@ -1,6 +1,15 @@
 ## How to use
 
-`./main input.in` 
+### use the binary file
+```
+.\ics_scraper .\input.in
+```
+
+### build from source
+```
+go build
+.\ics_scraper .\input.in
+```
 
 input.in need to be in this format 
 
@@ -12,4 +21,4 @@ input.in need to be in this format
 <div data-v-3b ... // the content of copied html element
 ```
 Please copy this and paste onto the line 5.
-![image](https://github.com/RiwEZ/cmu_reg_ics_scraper/assets/55591062/07d9963d-5b0d-4ae8-91fc-55aa23160b9c)
+![image](https://github.com/Bug-Too/cmu_reg_ics_scraper/assets/72825738/8ecdc0b7-3b3b-4fd3-8e4c-42dd03f8d8fc)
