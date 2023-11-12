@@ -1,6 +1,6 @@
 ## How to use
 
-### use the binary file(windows)
+### use the binary file
 ```
 .\ics_scraper .\input.in
 ```
